@@ -1,0 +1,77 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 4.5%;
+    padding:2% 1% 5% 1%;
+    width: 30%;
+    height: 40%;
+    background-image: linear-gradient(to bottom right,rgba(243, 226, 243, 0.4),rgba(94, 86, 122, 0.3));
+    border: 0.5px solid white;
+    border-radius: 5px;
+    text-align: center;
+
+}
+#icon{
+    width: 50px;
+    display: inline-block;
+}
+#heading{
+    display: inline-block;
+    font-size: 4em;
+}
+label{
+    font-size:xx-large ;
+    display: block;
+    padding: 2.5%;
+}
+input{
+    width: 83.33%;
+    font-size:x-large; 
+    height: 2rem;
+    padding: 1.5%;
+    border: 3px solid black;
+    border-radius:5px;
+}
+button{
+    display: block;
+    font-size: x-large;
+    font-weight: 100;
+    margin-left:auto ;
+    margin-right:auto ;
+    margin-top: 10%;
+    width: 27%;
+    height: 9%;
+    border: 1px solid black;
+    border-radius: 3px;
+    background-image: linear-gradient(to bottom right,rgba(247, 236, 247, 0.1),rgba(229, 121, 111, 0.3));
+}
+
+
+@media screen and (max-width:1060px) {
+    .container{
+        width: 45%;
+    }
+    button{
+        width: 37%;
+    }
+}
+@media screen and (min-width:550px) and (max-width:850px) {
+    .container{
+        width: 65%;
+    }
+    button{
+        width: 37%;
+    }
+}
+@media screen and (min-width:100px) and (max-width:550px) {
+    .container{
+        width: 75%;
+    }
+    button{
+        width: 40%;
+    }
+}
